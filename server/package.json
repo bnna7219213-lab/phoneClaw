@@ -1,0 +1,14 @@
+{
+  "name": "clawbridge-server",
+  "version": "0.1.0",
+  "description": "Bridge between phone/WeChat and local PC agents via a central server",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js", "dev": "node --watch src/index.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0",
+    "xml2js": "^0.6.2",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
